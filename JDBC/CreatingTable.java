@@ -4,7 +4,7 @@ public class CreatingTable {
        try{
            Class.forName("com.mysql.jdbc.Driver");
 
-           String url = "jdbc:mysql://localhost:3306/rajdatabase";
+           String url = "jdbc:mysql://localhost:3306/database";
            String username = "root";
            String password = "root123";
 
