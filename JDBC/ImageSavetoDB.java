@@ -5,7 +5,7 @@ public class ImageSavetoDB {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Ujjawaldatabase", "root", "root123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "root", "root123");
             // create table iamges(id int primary key auto_increment, pic blog);
             // blog -- binary large object
             
