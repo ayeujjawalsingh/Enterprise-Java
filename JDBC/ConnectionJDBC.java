@@ -5,7 +5,7 @@ public class ConnectionJDBC {
             //  Load the Driver
             Class.forName("com.mysql.jdbc.Driver");
             //  Creating a connection
-            String url="jdbc:mysql://localhost:3306/rajdatabase";
+            String url="jdbc:mysql://localhost:3306/database";
             String username="root";
             String password="root123";
             Connection con = DriverManager.getConnection(url,username,password);
