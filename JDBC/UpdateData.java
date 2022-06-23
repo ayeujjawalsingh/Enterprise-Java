@@ -7,7 +7,7 @@ public class UpdateData {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Ujjawaldatabase", "root", "root123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "root", "root123");
 
             String query = "update myinfo set First_Name=?, Last_Name=? where uID=?";
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
