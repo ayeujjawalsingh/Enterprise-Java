@@ -5,7 +5,7 @@ public class DisplayData {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rajdatabase", "root", "root123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "root", "root123");
 
             String query = "select* from myinfo";
             Statement stmt = con.createStatement();
